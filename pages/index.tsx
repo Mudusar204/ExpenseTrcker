@@ -4,6 +4,7 @@ import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import {Text} from '@chakra-ui/react'
 import Button from '@/components/button/Button'
+import Practice from '@/components/practice/practice'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -18,7 +19,8 @@ export default function Home() {
       <main className={styles.main}>
         <Text>malik sb</Text>
         <Button backgroundColor='red' buttonTitle='gggggggggggg'/>
-        <p>jfkljdfkjdlkf</p>
+        <Text fontSize='2xl'> Expense Tracker</Text>
+        <Practice/>
         {/* <button></button>
         <div className={styles.description}>
           <p>
